@@ -1,0 +1,286 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nat{
+    height: 300px;
+    width:  100%;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-evenly;
+}
+.nat h2{
+    font-size: 80px;
+   margin-top: 50px;
+    color: grey;
+}
+.nat h4{
+    margin-top: 180px;
+    font-size: 40px;
+}
+.pic {
+    height: 2000px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.pic img{
+    height: inherit;
+    width: inherit;
+    position: relative;
+}
+.pic .container{
+    background-color: white;
+    height: 1500px;
+    margin-right: 10%;
+    margin-top: 15%;
+    width: 1400px;
+    border-bottom: 10px solid green;
+    position: absolute;   
+}
+.pic .container h1{
+    text-align: center;
+    font-size: 110px;
+    font-weight: bold;
+    color: black;
+    padding-top: 150px;
+}
+.pic .container p{
+    font-size: 55px;
+    color: black;
+    text-align: center;
+}
+.pic .container .button input{
+    height: 150px;
+    width: 650px;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    font-size: 35px;
+    margin-left: 400px;
+}
+.pic .container .button input:hover{
+    background-color: blueviolet;
+}
+.divide{
+    height: 1800px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.divide .main h2{
+    color: black;
+    font-size: 100px;
+    font-weight: bold;
+    padding: 380px 200px;
+}
+.divide .main span{
+    color: black;
+    font-size: 50px;
+    line-height: 0%;
+}
+.divide .who{
+    padding: 150px;
+}
+.divide .who  h3{
+    font-size: 70px;
+    color: green;
+  padding: 100px;
+}
+.divide .who span{
+    color: black;
+    font-size: 50px;
+}
+.divide .what{
+    padding: 150px;
+}
+.divide .what  h3{
+    font-size: 70px;
+    color: green;
+    padding: 100px;
+}
+.divide .what span{
+    color: black;
+    font-size: 50px;
+}
+.fore{
+    display: flex;
+    height: 3400px;
+    width: 100%;
+    position: relative;
+}
+.fore img{
+    margin: 200px 240px;
+    height: 2500px;
+    width: 45%;
+}
+.fore .green{
+    padding:200px;
+}
+.fore .green h1{
+    font-size: 170px;
+    color:black;
+    padding: 200px;
+}
+.fore .green span{
+    color: black;
+    font-size: 60px;
+}
+.fore .email{
+    background-color: white;
+    height: 600px;
+    right: 18%;
+    bottom: 10%;
+    width: 2000px;
+    border-top:  15px solid green;
+    position: absolute;   
+}
+.fore .email h2{
+    font-size: 80px;
+    color: black;
+    font-weight: bold;
+    padding: 120px 140px;
+}
+.fore .email span{
+    font-size: 50px;
+    color: black;
+}
+.fore .email input{
+    height: 150px;
+    width: 50%;
+    margin-left: 300px;
+    border: 10px double blue;
+}
+.fore .email input::placeholder{
+    font-size: 40px;
+}
+.fore .email .button input{
+    height: 120px;
+    width: 450px;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    font-size: 35px;
+    margin-left: 300px;
+}
+.fore .email .button input:hover{
+    background-color: blueviolet;
+}
+.new {
+    height: 1000px;
+    width: 100%;
+    background-color:forestgreen;
+    position: relative;
+    
+}
+.new h2{
+    font-size: 160px;
+    padding-top: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.new span{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.new .first{
+
+    height: 600px;
+    width: 35%;
+    background-color: white;
+    margin-left:30%;
+    bottom:5%;
+}
+.new .first h3{
+   
+    font-size: 100px;
+    color: black;
+    text-align: center;
+}
+.new .first h3 span{  
+    font-size: 60px;
+    color: black;
+    text-align: center;
+}
+.need {
+    height: 2000px;
+    width: 100%;
+    posi
+}
+.need h1 {
+    font-size: 90px;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+.need span{
+    font-size: 50px;
+}
+.need .cent{
+    height: 1200px;
+    width: 100%; 
+    font-size: 80px;
+    padding-top: 200px;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    position: relative;
+}
+.need .cent .vol{
+    width: 22%;
+    height: 900px;
+    padding-top: 400px;
+    position: absolute;
+    background-size: cover;
+    background-image: url("https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg");
+}
+.need .cent .vol:hover{
+    background: rgba(0,0,0,1.2);
+    border: 15px solid blueviolet;
+}
+.need .cent .visit{
+    width: 22%;
+    height: 900px;
+    padding-top: 400px;
+    left: 1150px;
+    position: absolute;
+    background-size: cover;
+    background-image: url("https://t4.ftcdn.net/jpg/05/47/97/81/360_F_547978128_vqEEUYBr1vcAwfRAqReZXTYtyawpgLcC.jpg");
+}
+.need .cent .visit:hover{
+    background: rgba(0,0,0,1.2);
+    border: 15px solid blueviolet;
+}
+.need .cent .take{
+    width: 22%;
+    height: 900px;
+    padding-top: 400px;
+    left: 2350px;
+    position: absolute;
+    background-size: cover;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5d777de8109c315fd22faf3a/1693407136044-G90XQURX1GABMYGAS8K1/shutterstock_1288634614.jpg?format=2500w");
+}
+.need .cent .take:hover{
+    background: rgba(0,0,0,1.2);
+    border: 15px solid blueviolet;
+}
+.need .cent .donate{
+    width: 22%;
+    height: 900px;
+    padding-top: 400px;
+    left: 3500px;
+    position: absolute;
+    background-size: cover;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXOJD3mxb0aftK8udEfpyiUE89kxsFJOicng&s");
+}
+.need .cent .donate:hover{
+    background: rgba(0,0,0,1.2);
+    border: 15px solid blueviolet;
+}
